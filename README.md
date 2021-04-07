@@ -17,3 +17,22 @@ docker run --rm -v $PWD/classes/results/is_opposite_of-usage:/home/dev/output is
 ```
 
 Output is written to [./classes/results/is_opposite_of-usage/is_opposite_of.tsv]().
+
+
+
+
+## Cataloging opposite triples from the MetaKG
+#### System requirements
+* [Docker](https://www.docker.com/)
+
+#### Configuration
+This analysis makes use of a hand-curated list of opposite predicates available in [predicates/predicates.txt](). The MetaKG is automatically downloaded each time the analysis is run.
+
+#### Execute the analysis of opposite triples
+From the base directory of this repository, execute the analysis with the following commands:
+```
+docker build -t metakg-opposite-triples -f metakg-opposite-triples.Dockerfile .
+docker run --rm -v $PWD/classes/results/metakg-opposite-triples:/home/dev/output metakg-opposite-triples
+```
+
+Output is written to [./classes/results/metakg-opposite-triples/metakg-opposite-triples.tsv]().

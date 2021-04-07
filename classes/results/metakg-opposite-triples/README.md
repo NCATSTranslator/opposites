@@ -1,0 +1,3 @@
+## metakg-opposite-triples.tsv
+The `metakg-opposite-triples.tsv` file in this folder contains pairs of subject-predicate-object triples mined from the MetaKG that share the same subject and object but use predicates that are opposite in nature. The file is generated/updated when the [metakg-opposite-triples]() container is run. File format is tab-delimited: <br>
+`subject` [tab] `object` [tab] `predicate1` [tab] `predicate2` [tab] `TEAM_NAME|API_NAME pairs that serve predicate1` [tab] `TEAM_NAME|API_NAME pairs that serve predicate2`
