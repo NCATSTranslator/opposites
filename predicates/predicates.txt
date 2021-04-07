@@ -17,6 +17,7 @@ decreases_transport_of, increases_transport_of
 decreases_uptake_of, increases_uptake_of
 end_interbase_coordinate, start_interbase_coordinate
 derives_from, derives_into
+entity_negatively_regulated_by_entity, entity_positively_regulated_by_entity
 entity_negatively_regulates_entity, entity_positively_regulates_entity
 has_active_ingredient, has_excipient
 has_completed, has_not_completed
