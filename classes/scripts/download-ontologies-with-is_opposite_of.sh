@@ -1,0 +1,31 @@
+#!/bin/bash
+
+wget https://raw.githubusercontent.com/biomedontology/olobo/master/src/ontology/olobo_merged.owl
+wget http://purl.obolibrary.org/obo/omp.owl
+wget http://purl.obolibrary.org/obo/phipo.owl
+wget http://purl.obolibrary.org/obo/mco.owl
+wget http://purl.obolibrary.org/obo/pco.owl
+wget http://purl.obolibrary.org/obo/nbo.owl
+wget http://purl.obolibrary.org/obo/ms.owl
+wget http://purl.obolibrary.org/obo/ecto.owl
+wget http://purl.obolibrary.org/obo/htn.owl
+wget http://purl.obolibrary.org/obo/cl.owl
+wget http://purl.obolibrary.org/obo/hp.owl
+wget http://purl.obolibrary.org/obo/wbphenotype.owl
+wget http://purl.obolibrary.org/obo/pato.owl
+wget http://purl.obolibrary.org/obo/fbbt.owl
+wget http://purl.obolibrary.org/obo/mp.owl
+wget http://purl.obolibrary.org/obo/fypo.owl
+wget http://purl.obolibrary.org/obo/upheno.owl
+wget https://raw.githubusercontent.com/icdo/ICDO/master/src/ontology/icdo.owl
+wget http://purl.obolibrary.org/obo/ecocore.owl
+wget http://purl.obolibrary.org/obo/txpo.owl
+wget http://purl.obolibrary.org/obo/planp.owl
+wget http://purl.obolibrary.org/obo/maxo.owl
+wget file:///data/var/www/html/ontobee/ontology/LTHIDO.merged.owl
+wget https://raw.githubusercontent.com/TSO-ontology/TSO/master/src/ontology/tso-merged.owl
+wget http://purl.obolibrary.org/obo/xpo.owl
+wget http://purl.obolibrary.org/obo/flopo.owl
+wget http://purl.obolibrary.org/obo/zp.owl
+wget https://raw.githubusercontent.com/KPMP/KTAO/master/src/ontology/ktao-merged.owl
+wget http://purl.obolibrary.org/obo/dpo.owl
