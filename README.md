@@ -21,18 +21,21 @@ Output is written to [./classes/results/is_opposite_of-usage/is_opposite_of.tsv]
 
 
 
-## Cataloging opposite triples from the MetaKG
+## Cataloging assertions of oppositeness from the MetaKG
+This analysis extracts from the [SmartAPI Translator MetaKG](https://smart-api.info/portal/translator/metakg), assertions of oppositeness, e.g. assertions that share both a subject and object, but use predicates that are opposite in nature. This analysis makes use of a hand-curated list of opposite predicates available in [predicates/predicates.txt](). The [SmartAPI Translator MetaKG](https://smart-api.info/portal/translator/metakg) is automatically downloaded each time the analysis is run.
+
+Output is written to [./classes/results/metakg-assertions-of-oppositeness/metakg-assertions-of-oppositeness.tsv]().
+
 #### System requirements
 * [Docker](https://www.docker.com/)
-
-#### Configuration
-This analysis makes use of a hand-curated list of opposite predicates available in [predicates/predicates.txt](). The MetaKG is automatically downloaded each time the analysis is run.
 
 #### Execute the analysis of opposite triples
 From the base directory of this repository, execute the analysis with the following commands:
 ```
-docker build -t metakg-opposite-triples -f metakg-opposite-triples.Dockerfile .
-docker run --rm -v $PWD/classes/results/metakg-opposite-triples:/home/dev/output metakg-opposite-triples
+docker build -t metakg-assertions-of-oppositeness -f metakg-opposite-triples.Dockerfile .
+docker run --rm -v $PWD/classes/results/metakg-assertions-of-oppositeness:/home/dev/output metakg-assertions-of-oppositeness
+```
+
 ```
 
 Output is written to [./classes/results/metakg-opposite-triples/metakg-opposite-triples.tsv]().

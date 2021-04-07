@@ -13,7 +13,7 @@ RUN groupadd --gid 9001 dev && \
 
 COPY predicates/predicates.txt /home/dev/data/
 COPY classes/code /home/dev/code/
-COPY classes/scripts/metakg-opposite-triple.entrypoint.sh /home/dev/
+COPY classes/scripts/metakg-assertions-of-oppositeness.entrypoint.sh /home/dev/
 RUN mkdir /home/dev/output
 RUN chown -R dev:dev /home/dev
 
@@ -23,7 +23,7 @@ USER dev
 WORKDIR /home/dev/code/
 RUN mvn clean install
 
-RUN chmod 755 /home/dev/metakg-opposite-triple.entrypoint.sh
+RUN chmod 755 /home/dev/metakg-assertions-of-oppositeness.entrypoint.sh
 
 ENV MAVEN_OPTS "-Xmx2G"
-ENTRYPOINT ["/home/dev/metakg-opposite-triple.entrypoint.sh"] 
+ENTRYPOINT ["/home/dev/metakg-assertions-of-oppositeness.entrypoint.sh"] 

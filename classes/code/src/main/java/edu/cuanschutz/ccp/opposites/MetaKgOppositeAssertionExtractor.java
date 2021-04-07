@@ -25,9 +25,9 @@ import lombok.Data;
  * downloaded automatically whenever the code is executed.
  *
  */
-public class MetaKgOppositeTripleExtractor {
+public class MetaKgOppositeAssertionExtractor {
 
-	private static final Logger logger = Logger.getLogger(MetaKgOppositeTripleExtractor.class);
+	private static final Logger logger = Logger.getLogger(MetaKgOppositeAssertionExtractor.class);
 
 	public static Collection<OppositeTriples> extractOppositeMetaKgTriples(Map<String, String> oppositePredicatesMap)
 			throws IOException {

@@ -10,9 +10,9 @@ import java.util.Set;
 import org.junit.Test;
 
 import edu.cuanschutz.ccp.metakg.MetaKgParser.Triple;
-import edu.cuanschutz.ccp.opposites.MetaKgOppositeTripleExtractor.OppositeTriples;
+import edu.cuanschutz.ccp.opposites.MetaKgOppositeAssertionExtractor.OppositeTriples;
 
-public class MetaKgOppositeTripleExtractorMainTest {
+public class MetaKgOppositeAssertionExtractorMainTest {
 
 	@Test
 	public void testCreateOutputLines() {
@@ -34,7 +34,7 @@ public class MetaKgOppositeTripleExtractorMainTest {
 		oppositeTriples.add(new OppositeTriples(expectedTriple1p, expectedTriple1q));
 		oppositeTriples.add(new OppositeTriples(expectedTriple2p, expectedTriple2q));
 
-		List<String> outputLines = MetaKgOppositeTripleExtractorMain.createOutputLines(oppositeTriples);
+		List<String> outputLines = MetaKgOppositeAssertionExtractorMain.createOutputLines(oppositeTriples);
 
 		List<String> expectedOutputLines = Arrays.asList("s1\to1\tp1\tq1\tt1|a1\tt2|a2\n",
 				"s2\to2\tp2\tq2\tt4|a4,t5|a5\tt6|a6\n");

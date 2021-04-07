@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import edu.cuanschutz.ccp.metakg.MetaKgParser.Triple;
-import edu.cuanschutz.ccp.opposites.MetaKgOppositeTripleExtractor.OppositeTriples;
+import edu.cuanschutz.ccp.opposites.MetaKgOppositeAssertionExtractor.OppositeTriples;
 import edu.ucdenver.ccp.common.collections.CollectionsUtil;
 import edu.ucdenver.ccp.common.file.CharacterEncoding;
 import edu.ucdenver.ccp.common.file.FileWriterUtil;
@@ -24,7 +24,7 @@ import edu.ucdenver.ccp.common.file.reader.StreamLineIterator;
  * from the MetaKG
  *
  */
-public class MetaKgOppositeTripleExtractorMain {
+public class MetaKgOppositeAssertionExtractorMain {
 
 	/**
 	 * @param args args[0] = a list of opposite predicates (one pair per line,
@@ -36,12 +36,12 @@ public class MetaKgOppositeTripleExtractorMain {
 	public static void main(String[] args) {
 		File oppositePredicatesFile = new File(args[0]);
 		File outputDirectory = new File(args[1]);
-		File outputFile = new File(outputDirectory, "metakg-opposite-triples.tsv");
+		File outputFile = new File(outputDirectory, "metakg-assertions-of-oppositeness.tsv");
 
 		try {
 			Map<String, String> oppositePredicatesMap = buildOppositePredicatesMap(
 					new FileInputStream(oppositePredicatesFile));
-			Collection<OppositeTriples> oppositeTriples = MetaKgOppositeTripleExtractor
+			Collection<OppositeTriples> oppositeTriples = MetaKgOppositeAssertionExtractor
 					.extractOppositeMetaKgTriples(oppositePredicatesMap);
 
 			List<String> lines = createOutputLines(oppositeTriples);

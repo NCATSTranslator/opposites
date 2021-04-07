@@ -12,9 +12,9 @@ import java.util.Set;
 import org.junit.Test;
 
 import edu.cuanschutz.ccp.metakg.MetaKgParser.Triple;
-import edu.cuanschutz.ccp.opposites.MetaKgOppositeTripleExtractor.OppositeTriples;
+import edu.cuanschutz.ccp.opposites.MetaKgOppositeAssertionExtractor.OppositeTriples;
 
-public class MetaKgOppositeTripleExtractorTest {
+public class MetaKgOppositeAssertionExtractorTest {
 
 	@Test
 	public void testCombineTriples() {
@@ -28,7 +28,7 @@ public class MetaKgOppositeTripleExtractorTest {
 		t4.addTeamApi("t4", "a4");
 		t4.addTeamApi("t5", "a5");
 
-		Triple combinedTriple = MetaKgOppositeTripleExtractor
+		Triple combinedTriple = MetaKgOppositeAssertionExtractor
 				.combineTriples(new HashSet<Triple>(Arrays.asList(t1, t2, t3, t4)));
 
 		Triple expectedTriple = new Triple("s", "p", "o");
@@ -122,7 +122,7 @@ public class MetaKgOppositeTripleExtractorTest {
 		tripleMap.put(key2, s2o2Triples);
 
 		Set<OppositeTriples> oppositeTriples = new HashSet<OppositeTriples>(
-				MetaKgOppositeTripleExtractor.matchOppositeTriples(oppositePredicatesMap, tripleMap));
+				MetaKgOppositeAssertionExtractor.matchOppositeTriples(oppositePredicatesMap, tripleMap));
 
 		Triple expectedTriple1p = new Triple("s1", "p1", "o1");
 		expectedTriple1p.addTeamApi("t1", "a1");
