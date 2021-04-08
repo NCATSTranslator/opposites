@@ -36,6 +36,27 @@ docker build -t metakg-assertions-of-oppositeness -f metakg-opposite-triples.Doc
 docker run --rm -v $PWD/classes/results/metakg-assertions-of-oppositeness:/home/dev/output metakg-assertions-of-oppositeness
 ```
 
+
+## Validating Translator assertions represented in the MetaKG
+Note: this task has nothing to do with opposites, but was inspired from observations of domain/range mismatches made while examining the [SmartAPI Translator MetaKG](https://smart-api.info/portal/translator/metakg) for assertions of oppositeness. This analysis examines assertions in the MetaKG and reports on four possible errors:
+1) A class used as the subject or object for a given assertion is not present in Biolink
+2) The predicate used by an assertion is not present in Biolink
+3) The subject of an assertion is not in alignment with the domain of the assertion's predicate
+4) The object of an assertion is not in alignment with the range of the assertion's predicate
+
+This analysis makes use of the Biolink ontology and the SmartAPI Translator MetaKG, both of which are downloaded automatically.
+
+Output is written to [./classes/results/metakg-assertion-validation/metakg-assertion-errors.txt]().
+
+This analysis also outputs a list of Biolink predicates that are missing a domain and/or range to [./classes/results/metakg-assertion-validation/biolink-predicates-missing-domain-range.tsv]().
+
+#### System requirements
+* [Docker](https://www.docker.com/)
+
+#### Execute the analysis of MetaKG assertsion
+From the base directory of this repository, execute the analysis with the following commands:
+```
+docker build -t metakg-assertion-validation -f metakg-assertion-validation.Dockerfile .
+docker run --rm -v $PWD/classes/results/metakg-assertion-validation:/home/dev/output metakg-assertion-validation
 ```
 
-Output is written to [./classes/results/metakg-opposite-triples/metakg-opposite-triples.tsv]().
