@@ -1,0 +1,403 @@
+AnatomicalEntity	AnatomicalEntity	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	AnatomicalEntity	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|UBERON Ontology API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|UBERON Ontology API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	BiologicalProcess	preceded_by	precedes	Service Provider|SEMMED Anatomy API	Exposures Provider|CAM-KP API,Service Provider|SEMMED Anatomy API
+AnatomicalEntity	Cell	derives_from	derives_into	Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Uberongraph
+AnatomicalEntity	Cell	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	CellularComponent	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
+AnatomicalEntity	Disease	preceded_by	precedes	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
+AnatomicalEntity	Disease	predisposes	prevents	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
+AnatomicalEntity	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
+AnatomicalEntity	GrossAnatomicalStructure	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	OntologyClass	derives_from	derives_into	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalEntity	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	BiologicalEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	BiologicalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	BiologicalProcessOrActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Cell	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	EnvironmentalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	MolecularActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	NamedThing	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Occurrent	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Pathway	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	PlanetaryEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalEntity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	Behavior	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
+BiologicalProcess	BiologicalProcess	preceded_by	precedes	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	BiologicalProcess	process_negatively_regulates_process	process_positively_regulates_process	Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API	Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	BiologicalProcess	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	Cell	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
+BiologicalProcess	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
+BiologicalProcess	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	GrossAnatomicalStructure	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	InformationContentEntity	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	MacromolecularComplexMixin	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	MolecularActivity	preceded_by	precedes	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	MolecularActivity	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	MolecularActivity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	NoncodingRNAProduct	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	Occurrent	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	Occurrent	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	OntologyClass	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API
+BiologicalProcess	Pathway	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	Pathway	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	Protein	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	RNAProduct	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+BiologicalProcess	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	Transcript	has_input	has_output	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcessOrActivity	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	Cell	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcessOrActivity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalSex	BiologicalSex	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalSex	Genotype	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalSex	InformationContentEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalSex	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	AnatomicalEntity	has_part	lacks_part	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Uberongraph
+Cell	AnatomicalEntity	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	BiologicalProcess	has_completed	has_not_completed	Ranking Agent|Automat Uberongraph	Ranking Agent|Automat Uberongraph
+Cell	Cell	derives_from	derives_into	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	Cell	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	CellularComponent	has_part	lacks_part	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Uberongraph
+Cell	CellularComponent	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Cell	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+CellularComponent	Cell	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+CellularComponent	CellularComponent	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Cellular Component API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Cellular Component API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+CellularComponent	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+CellularComponent	OrganismalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	AnatomicalEntity	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	Cell	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	CellularComponent	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	ChemicalSubstance	derives_from	derives_into	Ranking Agent|Automat KEGG	Ranking Agent|Automat KEGG
+ChemicalSubstance	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	Disease	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_activity_of	increases_activity_of	Ranking Agent|Automat Pharos	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_expression_of	increases_expression_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_localization_of	increases_localization_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_metabolic_processing_of	increases_metabolic_processing_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_molecular_interaction	increases_molecular_interaction	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_molecular_modification_of	increases_molecular_modification_of	Ranking Agent|Automat MyChem	Ranking Agent|Automat MyChem
+ChemicalSubstance	Gene	decreases_mutation_rate_of	increases_mutation_rate_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_response_to	increases_response_to	Ranking Agent|Automat MyChem	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_secretion_of	increases_secretion_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_synthesis_of	increases_synthesis_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_transport_of	increases_transport_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	decreases_uptake_of	increases_uptake_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API,Text Mining Provider;Service Provider|Text Mining Targeted Association API	Service Provider|SEMMED Chemical API,Text Mining Provider;Service Provider|Text Mining Targeted Association API
+ChemicalSubstance	GeneOrGeneProduct	entity_negatively_regulates_entity	entity_positively_regulates_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
+ChemicalSubstance	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	PhenotypicFeature	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	PhenotypicFeature	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Protein	entity_negatively_regulates_entity	entity_positively_regulates_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
+ChemicalSubstance	Protein	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	Transcript	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Disease	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
+Disease	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
+Disease	ChemicalSubstance	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Disease	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
+Disease	Disease	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|MyDisease.info API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|MyDisease.info API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Disease	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
+Disease	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Disease	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Disease	PhenotypicFeature	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+EnvironmentalProcess	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EnvironmentalProcess	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+EvidenceType	EvidenceType	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+EvidenceType	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	CellularComponent	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	ChemicalSubstance	decreases_activity_of	increases_activity_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_metabolic_processing_of	increases_metabolic_processing_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_molecular_interaction	increases_molecular_interaction	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_molecular_modification_of	increases_molecular_modification_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_response_to	increases_response_to	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_secretion_of	increases_secretion_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	decreases_synthesis_of	increases_synthesis_of	Ranking Agent|Automat CTD	Ranking Agent|Automat KEGG
+Gene	ChemicalSubstance	decreases_transport_of	increases_transport_of	Ranking Agent|Automat CTD	Ranking Agent|Automat MyChem
+Gene	ChemicalSubstance	decreases_uptake_of	increases_uptake_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Disease	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	PhenotypicFeature	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Transcript	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genome	Genome	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genome	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GenomicEntity	GenomicEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GenomicEntity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genotype	BiologicalSex	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genotype	Genotype	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genotype	InformationContentEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Genotype	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GrossAnatomicalStructure	AnatomicalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GrossAnatomicalStructure	GrossAnatomicalStructure	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GrossAnatomicalStructure	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+InformationContentEntity	BiologicalSex	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+InformationContentEntity	Genotype	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+InformationContentEntity	InformationContentEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+InformationContentEntity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Inheritance	Inheritance	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Inheritance	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Inheritance	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+LifeStage	LifeStage	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+LifeStage	Occurrent	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	BiologicalProcess	preceded_by	precedes	Ranking Agent|Automat Uberongraph	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	BiologicalProcess	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+MolecularActivity	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API
+MolecularActivity	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+MolecularActivity	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	MolecularActivity	negatively_regulates	positively_regulates	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	MolecularActivity	preceded_by	precedes	Ranking Agent|Automat Uberongraph	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	MolecularActivity	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	MolecularActivity	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Molecular Activity API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Molecular Activity API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+MolecularActivity	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	Occurrent	negatively_regulates	positively_regulates	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	Occurrent	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+MolecularActivity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+MolecularActivity	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	Protein	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API
+MolecularActivity	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+MolecularActivity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API
+NamedThing	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	BiologicalEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	BiologicalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	BiologicalProcessOrActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Cell	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	EnvironmentalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	MolecularActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	NamedThing	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Occurrent	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Pathway	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	PlanetaryEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+NamedThing	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Behavior	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	BiologicalProcess	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	BiologicalProcess	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Cell	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	GrossAnatomicalStructure	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	LifeStage	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	MacromolecularComplexMixin	has_input	has_output	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	MolecularActivity	negatively_regulates	positively_regulates	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	MolecularActivity	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	MolecularActivity	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Occurrent	negatively_regulates	positively_regulates	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Occurrent	preceded_by	precedes	Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Occurrent	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	Occurrent	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Occurrent	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Occurrent	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	Pathway	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Occurrent	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	Protein	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Standards Reference Implementation Team|Ontology-KP API
+Occurrent	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Occurrent	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Onset	Onset	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Onset	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	AnatomicalEntity	derives_from	derives_into	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	AnatomicalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	BiologicalProcess	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	BiologicalSex	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Cell	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	CellularComponent	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Disease	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	EvidenceType	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Genome	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	GenomicEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Genotype	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	GrossAnatomicalStructure	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	InformationContentEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Inheritance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	MolecularActivity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Occurrent	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	OntologyClass	derives_from	derives_into	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	OntologyClass	has_input	has_output	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	OrganismalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Protein	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Publication	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	SequenceVariant	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OntologyClass	Zygosity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OrganismalEntity	CellularComponent	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OrganismalEntity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+OrganismalEntity	OrganismalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Pathway	BiologicalProcess	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Pathway	BiologicalProcess	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Pathway	MolecularActivity	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Pathway	Occurrent	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Pathway	Pathway	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
+Pathway	Pathway	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	AnatomicalEntity	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|SEMMED Phenotype API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	BiologicalProcess	preceded_by	precedes	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
+PhenotypicFeature	Cell	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
+PhenotypicFeature	ChemicalSubstance	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+PhenotypicFeature	Disease	predisposes	prevents	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
+PhenotypicFeature	Disease	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|SEMMED Phenotype API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
+PhenotypicFeature	Inheritance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	Onset	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	PhenotypicFeature	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Human Phenotype Ontology API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Human Phenotype Ontology API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	Zygosity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhysicalEntity	BiologicalEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PhysicalEntity	BiologicalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PhysicalEntity	BiologicalProcessOrActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PhysicalEntity	NamedThing	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PhysicalEntity	Occurrent	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	Gene	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	GenomicEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	MacromolecularComplex	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	MacromolecularMachine	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	MolecularEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	NamedThing	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	NoncodingRNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	OrganismalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	PhysicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+PlanetaryEntity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Protein	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Protein	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Protein	Protein	derives_from	derives_into	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Protein	Protein	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Publication	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Publication	Publication	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+SequenceVariant	Gene	decreases_expression_of	increases_expression_of	Ranking Agent|Automat GTEx	Ranking Agent|Automat GTEx
+SequenceVariant	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+SequenceVariant	SequenceVariant	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Snv	Snv	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ThingWithTaxon	BiologicalEntity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+ThingWithTaxon	BiologicalProcess	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+ThingWithTaxon	BiologicalProcessOrActivity	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+ThingWithTaxon	NamedThing	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+ThingWithTaxon	Occurrent	negatively_regulates	positively_regulates	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Transcript	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Transcript	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Transcript	Transcript	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Zygosity	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Zygosity	PhenotypicFeature	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Zygosity	Zygosity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
