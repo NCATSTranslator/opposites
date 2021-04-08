@@ -4,6 +4,7 @@ AnatomicalEntity	BiologicalProcess	preceded_by	precedes	Service Provider|SEMMED 
 AnatomicalEntity	Cell	derives_from	derives_into	Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Uberongraph
 AnatomicalEntity	Cell	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 AnatomicalEntity	CellularComponent	subclass_of	superclass_of	Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+AnatomicalEntity	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
 AnatomicalEntity	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
 AnatomicalEntity	Disease	preceded_by	precedes	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
 AnatomicalEntity	Disease	predisposes	prevents	Service Provider|SEMMED Anatomy API	Service Provider|SEMMED Anatomy API
@@ -44,14 +45,18 @@ BiologicalEntity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	E
 BiologicalProcess	AnatomicalEntity	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
 BiologicalProcess	Behavior	process_negatively_regulates_process	process_positively_regulates_process	Standards Reference Implementation Team|Ontology-KP API	Standards Reference Implementation Team|Ontology-KP API
 BiologicalProcess	BiologicalEntity	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+BiologicalProcess	BiologicalProcess	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	BiologicalProcess	preceded_by	precedes	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 BiologicalProcess	BiologicalProcess	process_negatively_regulates_process	process_positively_regulates_process	Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API	Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API
 BiologicalProcess	BiologicalProcess	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Biological Process API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 BiologicalProcess	Cell	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|Ontology-KP API
 BiologicalProcess	CellularComponent	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	ChemicalSubstance	has_input	has_output	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Exposures Provider|CAM-KP API,Ranking Agent|Automat Uberongraph,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+BiologicalProcess	Disease	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
+BiologicalProcess	Gene	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Biological Process API	Service Provider|SEMMED Biological Process API
 BiologicalProcess	GeneOrGeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
 BiologicalProcess	GeneProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
@@ -115,13 +120,19 @@ CellularComponent	Cell	subclass_of	superclass_of	Standards Reference Implementat
 CellularComponent	CellularComponent	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Cellular Component API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|Gene Ontology Cellular Component API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 CellularComponent	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 CellularComponent	OrganismalEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	AnatomicalEntity	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	AnatomicalEntity	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	BiologicalProcess	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	Cell	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	Cell	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
+ChemicalSubstance	CellularComponent	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	CellularComponent	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	ChemicalSubstance	derives_from	derives_into	Ranking Agent|Automat KEGG	Ranking Agent|Automat KEGG
+ChemicalSubstance	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	Disease	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	Disease	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 ChemicalSubstance	Gene	decreases_activity_of	increases_activity_of	Ranking Agent|Automat Pharos	Ranking Agent|Automat CTD
@@ -136,19 +147,24 @@ ChemicalSubstance	Gene	decreases_secretion_of	increases_secretion_of	Ranking Age
 ChemicalSubstance	Gene	decreases_synthesis_of	increases_synthesis_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 ChemicalSubstance	Gene	decreases_transport_of	increases_transport_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 ChemicalSubstance	Gene	decreases_uptake_of	increases_uptake_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+ChemicalSubstance	Gene	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API,Text Mining Provider;Service Provider|Text Mining Targeted Association API	Service Provider|SEMMED Chemical API,Text Mining Provider;Service Provider|Text Mining Targeted Association API
 ChemicalSubstance	GeneOrGeneProduct	entity_negatively_regulates_entity	entity_positively_regulates_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
 ChemicalSubstance	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+ChemicalSubstance	PhenotypicFeature	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	PhenotypicFeature	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Chemical API	Service Provider|SEMMED Chemical API
 ChemicalSubstance	PhenotypicFeature	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 ChemicalSubstance	Protein	entity_negatively_regulates_entity	entity_positively_regulates_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
 ChemicalSubstance	Protein	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 ChemicalSubstance	Transcript	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Disease	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
+Disease	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	ChemicalSubstance	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Disease	Disease	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	Disease	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|MyDisease.info API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Ranking Agent|Automat Ontological Hierarchy,Service Provider|MyDisease.info API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Disease	Gene	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Disease API	Service Provider|SEMMED Disease API
 Disease	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Disease	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
@@ -174,7 +190,11 @@ EnvironmentalProcess	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-
 EnvironmentalProcess	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
 EvidenceType	EvidenceType	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 EvidenceType	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	AnatomicalEntity	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	BiologicalProcess	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	BiologicalProcess	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Cell	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	CellularComponent	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	CellularComponent	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	ChemicalSubstance	decreases_activity_of	increases_activity_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 Gene	ChemicalSubstance	decreases_metabolic_processing_of	increases_metabolic_processing_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
@@ -185,14 +205,19 @@ Gene	ChemicalSubstance	decreases_secretion_of	increases_secretion_of	Ranking Age
 Gene	ChemicalSubstance	decreases_synthesis_of	increases_synthesis_of	Ranking Agent|Automat CTD	Ranking Agent|Automat KEGG
 Gene	ChemicalSubstance	decreases_transport_of	increases_transport_of	Ranking Agent|Automat CTD	Ranking Agent|Automat MyChem
 Gene	ChemicalSubstance	decreases_uptake_of	increases_uptake_of	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
+Gene	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API,Text Mining Provider;Service Provider|Text Mining Targeted Association API	Service Provider|SEMMED Gene API,Text Mining Provider;Service Provider|Text Mining Targeted Association API
 Gene	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
+Gene	Disease	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	Disease	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	Disease	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	Gene	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	Gene	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Gene	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+Gene	PhenotypicFeature	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	PhenotypicFeature	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Gene API	Service Provider|SEMMED Gene API
 Gene	Transcript	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+GeneOrGeneProduct	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
 Genome	Genome	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Genome	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 GenomicEntity	GenomicEntity	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
@@ -346,10 +371,12 @@ Pathway	Pathway	subclass_of	superclass_of	Standards Reference Implementation Tea
 PhenotypicFeature	AnatomicalEntity	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|SEMMED Phenotype API,Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 PhenotypicFeature	BiologicalProcess	preceded_by	precedes	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	Cell	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	ChemicalSubstance	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	ChemicalSubstance	negatively_correlated_with	positively_correlated_with	Ranking Agent|Automat CTD	Ranking Agent|Automat CTD
 PhenotypicFeature	Disease	predisposes	prevents	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	Disease	subclass_of	superclass_of	Ranking Agent|Automat Ontological Hierarchy,Service Provider|SEMMED Phenotype API,Standards Reference Implementation Team|Ontology-KP API	Ranking Agent|Automat Ontological Hierarchy,Standards Reference Implementation Team|SRI Reference Knowledge Graph API
+PhenotypicFeature	Gene	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	Gene	entity_negatively_regulates_entity	entity_positively_regulates_entity	Service Provider|SEMMED Phenotype API	Service Provider|SEMMED Phenotype API
 PhenotypicFeature	Inheritance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 PhenotypicFeature	Onset	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
@@ -380,6 +407,7 @@ PlanetaryEntity	Protein	has_input	has_output	Exposures Provider|CAM-KP API	Expos
 PlanetaryEntity	RNAProduct	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
 PlanetaryEntity	ThingWithTaxon	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
 PlanetaryEntity	Transcript	has_input	has_output	Exposures Provider|CAM-KP API	Exposures Provider|CAM-KP API
+Protein	ChemicalSubstance	entity_negatively_regulated_by_entity	entity_positively_regulated_by_entity	Text Mining Provider;Service Provider|Text Mining Targeted Association API	Text Mining Provider;Service Provider|Text Mining Targeted Association API
 Protein	ChemicalSubstance	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Protein	OntologyClass	subclass_of	superclass_of	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
 Protein	Protein	derives_from	derives_into	Standards Reference Implementation Team|SRI Reference Knowledge Graph API	Standards Reference Implementation Team|SRI Reference Knowledge Graph API
