@@ -1,5 +1,5 @@
 ## biolink-predicates-missing-domain-range.tsv
-The `biolink-predicates-missing-domain-range.tsv` file catalogs predicates in the Biolink ontology that are missing domain and/or range assignments. This file is generated/updated when the [metakg-assertion-validation](https://github.com/NCATSTranslator/opposites#validating-translator-assertions-represented-in-the-metakg) container is run.
+The `biolink-predicates-missing-domain-range.tsv` file catalogs predicates in the Biolink ontology that are missing domain and/or range assignments. Domain/range information is used to validate the MetaKG using the Biolink ontology, so it can be helpful to know if there are predicates missing domain and/or range assignments. This file is generated/updated when the [metakg-assertion-validation](https://github.com/NCATSTranslator/opposites#validating-translator-assertions-represented-in-the-metakg) container is run.
 
 ## metakg-assertion-errors.txt
 The `metakg-assertion-errors.txt` file logs errors in MetaKG assertions based on validation against the Biolink ontology. This file is generated/updated when the [metakg-assertion-validation](https://github.com/NCATSTranslator/opposites#validating-translator-assertions-represented-in-the-metakg) container is run. Four types of errors are detected:
