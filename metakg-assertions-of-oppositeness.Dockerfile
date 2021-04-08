@@ -12,8 +12,8 @@ RUN groupadd --gid 9001 dev && \
     useradd --create-home --shell /bin/bash --no-log-init -u 9001 -g dev dev
 
 COPY predicates/predicates.txt /home/dev/data/
-COPY classes/code /home/dev/code/
-COPY classes/scripts/metakg-assertions-of-oppositeness.entrypoint.sh /home/dev/
+COPY assertions/code /home/dev/code/
+COPY assertions/scripts/metakg-assertions-of-oppositeness.entrypoint.sh /home/dev/
 RUN mkdir /home/dev/output
 RUN chown -R dev:dev /home/dev
 

@@ -12,8 +12,8 @@ RUN apt-get update && apt-get install -y \
 RUN groupadd --gid 9001 dev && \
     useradd --create-home --shell /bin/bash --no-log-init -u 9001 -g dev dev
 
-COPY classes/code /home/dev/code/
-COPY classes/scripts/metakg-assertion-validation.entrypoint.sh /home/dev/
+COPY assertions/code /home/dev/code/
+COPY assertions/scripts/metakg-assertion-validation.entrypoint.sh /home/dev/
 RUN mkdir /home/dev/output
 RUN chown -R dev:dev /home/dev
 
