@@ -32,7 +32,7 @@ Output is written to [./classes/results/metakg-assertions-of-oppositeness/metakg
 #### Execute the analysis of opposite triples
 From the base directory of this repository, execute the analysis with the following commands:
 ```
-docker build -t metakg-assertions-of-oppositeness -f metakg-opposite-triples.Dockerfile .
+docker build -t metakg-assertions-of-oppositeness -f metakg-assertions-of-oppositeness.Dockerfile .
 docker run --rm -v $PWD/classes/results/metakg-assertions-of-oppositeness:/home/dev/output metakg-assertions-of-oppositeness
 ```
 
