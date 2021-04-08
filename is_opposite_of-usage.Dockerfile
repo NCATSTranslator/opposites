@@ -11,9 +11,9 @@ RUN apt-get update && apt-get install -y \
 RUN groupadd --gid 9001 dev && \
     useradd --create-home --shell /bin/bash --no-log-init -u 9001 -g dev dev
 
-COPY classes/code /home/dev/code/
-COPY classes/scripts/download-ontologies-with-is_opposite_of.sh /home/dev/scripts/
-COPY classes/scripts/is_opposite_of-usage.entrypoint.sh /home/dev/
+COPY assertions/code /home/dev/code/
+COPY assertions/scripts/download-ontologies-with-is_opposite_of.sh /home/dev/scripts/
+COPY assertions/scripts/is_opposite_of-usage.entrypoint.sh /home/dev/
 RUN mkdir -p /home/dev/data/ontologies && \
     mkdir /home/dev/output
 RUN chown -R dev:dev /home/dev
