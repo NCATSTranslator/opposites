@@ -6,10 +6,10 @@ The `metakg-assertion-errors.txt` file logs errors in MetaKG assertions based on
 
   1.  A class used as the subject or object for a given assertion is not present in Biolink
   1.  The predicate used by an assertion is not present in Biolink
-  1.  The subject of an assertion is not in alignment with the domain of the assertion's predicate
-  1.  The object of an assertion is not in alignment with the range of the assertion's predicate
+  1.  The subject of an assertion is not subsumed by the domain of the assertion's predicate
+  1.  The object of an assertion is not subsumed by the range of the assertion's predicate
 
-An explanation for each error is output to a separate line in the file. Note that for cases when the subject or object in an assertion is a `mixin`, each descendant of the mixin is validated. When an error is detected in these cases, the mixin class is listed along with the erroring class for completeness, e.g. `https://w3id.org/biolink/vocab/Occurrent|https://w3id.org/biolink/vocab/Activity` where `biolink:Occurrent` is a mixin and `biolink:Activity` is a subclass of `biolink:Occurrent`. <br>
+An explanation for each error is output to a separate line in the file. Note that for cases when the subject or object in an assertion is a `mixin`, each descendant of the mixin is validated. When an error is detected in these cases, you will find the mixin class listed along with the erroring class for completeness, e.g. if a domain mismatch is detected involving `biolinkActivity` where the subject in the assertion is `biolink:Occurrent` (a mixin, and the parent of `biolink:Activity`), then the error message will describe the offending class as `https://w3id.org/biolink/vocab/Occurrent|https://w3id.org/biolink/vocab/Activity`. <br>
 File format is tab-delimited: 
 | TEAM_NAME\|API_NAME | ERROR_MESSAGE |
 | ------------------- | ------------- |
@@ -22,7 +22,7 @@ File format is tab-delimited:
 
 The MetaKG assertion in question is `EnvironmentalProcess ----> enabled_by ----> MolecularEntity`.
 In the Biolink ontology `biolink:enabled_by` is defined to have a domain of `biolink:BiologicalProcessOrActivity`.
-The subject of this assertion, `biolink:EnvironmentalProcess` exists in the Biolink ontology, however it is not a descendant of `biolink:BiologicalProcessOrActivity` (it is a sibling concept instead), and therefore there is a mismatch between the expected domain of the predicate and the subject of the assertion.
+The subject of this assertion, `biolink:EnvironmentalProcess` exists in the Biolink ontology; however it is a sibling of `biolink:BiologicalProcessOrActivity` rather than a descendant, and therefore there is a mismatch between the specified domain of the predicate and the subject of the assertion.
 
 **What is the solution to addressing this problem?**
 
