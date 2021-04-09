@@ -25,6 +25,7 @@ In the Biolink ontology `biolink:enabled_by` is defined to have a domain of `bio
 The subject of this assertion, `biolink:EnvironmentalProcess` exists in the Biolink ontology, however it is not a descendant of `biolink:BiologicalProcessOrActivity` (it is a sibling concept instead), and therefore there is a mismatch between the expected domain of the predicate and the subject of the assertion.
 
 **What is the solution to addressing this problem?**
+
 There are two possible solutions to address this issue:
 1. Replace the use of `enabled_by` with a predicate that has an appropriate domain and range for the given assertion.
 2. Propose an update to the Biolink ontology to revise the domain of `enabled_by` in order to bring this assertion into compliance.
