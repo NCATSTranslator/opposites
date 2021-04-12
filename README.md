@@ -1,6 +1,9 @@
 # opposites
 This repo serves as a central point of coordination of Translator and external efforts to compile conceptual and relational opposites
 
+## Relevant external repositories
+* [Text Mining Provider's lexical approach to finding opposites](https://github.com/UCDenver-ccp/translator-concept-oppositeness)
+
 
 ## Cataloging current use of RO:0002604 (is_opposite_of) in ontologies
 This analysis mines existing ontologies for assertions that make use of the `RO:is_opposite_of` predicate. The list of ontologies that make use of `RO:is_opposite_of` has been manually extracted from [ontobee.org](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002604). <br> To add an ontology to the analysis, simply add a line to the [download-ontologies-with-is_opposite_of.sh](https://github.com/NCATSTranslator/opposites/blob/main/assertions/scripts/download-ontologies-with-is_opposite_of.sh) script.
