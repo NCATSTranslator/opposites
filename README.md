@@ -36,7 +36,26 @@ docker run --rm -v $PWD/assertions/results/metakg-assertions-of-oppositeness:/ho
 ```
 
 
-## Validating Translator assertions represented in the MetaKG
+## Compile lexically-derived opposites into n-triples
+This task compiles pairs of lexically-derived ontology concepts into a single n-triples file that links concepts using the `RO:0002604` property. During the processing, pairs of concepts that include at least one deprecated concept are excluded from the output.
+
+Output is written to [./assertions/results/lexically-derived-opposites/lexically-derived-opposites.nt](https://github.com/NCATSTranslator/opposites/blob/main/assertions/results/lexically-derived-opposites/lexically-derived-opposites.nt).
+
+#### System requirements
+* [Docker](https://www.docker.com/)
+
+#### To compile the lexically-derived opposites into a single n-triple file
+From the base directory of this repository, execute the following commands:
+```
+docker build -t lexopp -f compile-lexically-derived-opposite-pairs.Dockerfile .
+docker run --rm -v $PWD/assertions/results/lexically-derived-opposites:/home/dev/output lexopp
+```
+
+
+
+
+## Validating Translator assertions represented in the MetaKG (Deprecated)
+**Note: this task is handled by SRI via the Biolink Toolkit. It remains archived here for posterity.**
 Note: this task has nothing to do with opposites, but was inspired from observations of domain/range mismatches made while examining the [SmartAPI Translator MetaKG](https://smart-api.info/portal/translator/metakg) for assertions of oppositeness. This analysis examines assertions in the MetaKG and reports on four possible errors:
 1) A class used as the subject or object for a given assertion is not present in Biolink
 2) The predicate used by an assertion is not present in Biolink
